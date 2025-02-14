@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "chat_room_messages",
+  "info": {
+    "singularName": "chat-room-message",
+    "pluralName": "chat-room-messages",
+    "displayName": "ChatRoom-message",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "message": {
+      "type": "string"
+    },
+    "User": {
+      "type": "string"
+    },
+    "Photo": {
+      "type": "string"
+    }
+  }
+}
